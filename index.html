@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/8fdfac41fe.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="sectionhome">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ml-5 mr-5">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682773527/Nav-logo_ud3gcs.png" class="navbar-image " />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav m-auto">
+                        <a class="nav-link mr-2" id="nav-Items-4" href="#">Home</a>
+                        <a class="nav-link mr-2" id="nav-Items-1" href="#aboutus000">About Us</a>
+                        <a class="nav-link mr-2" id="nav-Items-2" href="#recipes000">Recipes</a>
+                        <a class="nav-link mr-2" id="nav-Items-3" href="#">Feedback</a>
+                    </div>
+                    <div class="ml-auto">
+                        <a class="nav-link" id="nav-Items-0" onclick="display('sectionfeedback')" href="#">Feedback</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- Banner section -->
+
+        <div class="banner p-5  d-flex flex-column justify-content-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-7 d-flex flex-column justify-content-center p-5">
+                        <div>
+                            <h1 class="banner-subtext">MeetNEat</h1>
+                            <h2 class="banner-heading">Experience the magic of food with our recipes</h2>
+                            <!-- <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682773691/Artboard_1_wmczjk.jpg" class="banner-sub-img d-lg-none pt-5" width="90%"> -->
+                            <p class="banner-para mt-5">Food is any substance consumed to provide nutritional support for the body. It includes both plant and animal-based products that can be consumed in a variety of forms, including raw, cooked, and processed.</p>
+                            <div class="mt-5">
+                                <a href="#"><button class="banner-ctu-btn">Join now</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-12 col-lg-5 d-none d-lg-block">
+                        <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682773691/Artboard_1_wmczjk.jpg" width="90%">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+
+        <!-- About-Us -->
+        <div id="aboutus000">
+            <div class="about-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="about-us-heading mt-5">Food Blogging</h1>
+                            <p class="about-us-para"></p>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682825189/zahrin-lukman-VSNoQdimlQQ-unsplash_mfxhh5.jpg" class="d-block w-100" alt="..." width="80%">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682825190/ella-olsson-KPDbRyFOTnE-unsplash_jgdew6.jpg" class="d-block w-100" alt="..." width="80%">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682825190/brooke-lark-M4E7X3z80PQ-unsplash_z6gaic.jpg" class="d-block w-100" alt="..." width="80%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <p class="about-us-para mt-5">Food blogging is a feature of food journalism interlinking a gourmet interest in food, blog writing, and food photography. Food blogs are generally written by food enthusiasts often referred to as a “foodies” and can be used commercially by the blogger to earn a profit. The first food blog launched in July, 1997 as a running feature on the Chowhound web site. Titled “What Jim Had for Dinner”, Chowhound founder Jim Leff cataloged his dailyeating<br><br>The majority of food blogs use pictures taken by the author himself/herself and some of them focus specifically on food photography.
+                                There are different types of Food blogging.</p>
+                        </div>
+                        <div class="col-12">
+                            <p class="about-us-para mt-5"><strong>I LOVE FOOD!</strong>In this space, I am always sharing fresh, flavorful, (mostly) healthy recipes that I love to make and eat in my real, actual, every day life. If I wouldn’t eat it in real life, I won’t put in on the blog. My goal is to inspire you with food that is both approachable AND exciting, whether you’re cooking for yourself, your family, your roommates, or your friends. I want you to be so excited about these recipes that you eagerly await 5pm when you can go home from work and start cooking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Products -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 m-5">
+                    <h1 class="pro-heading">What recipes do you want to do today!</h1>
+                </div>
+                <div class="card1 mb-3 p-5 shadow">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-4 ">
+                                <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682787693/gallery-11_yajona.png" width="80%">
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <h1 class="card-heading p-3">Fish</h1>
+                                <p class="card-para">This spicy dish is a scintillating stew of curry cooked with vegetables and of course, the whole head of a fish. This delectable dish is usually cooked with both tamarind and coconut milk, giving it a rich, nuanced flavour.</p>
+                                <a href="#" onclick="display('sectionfishcurry')" class="card-sub-heading">Making Process<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="m-2 bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card1 mb-3 p-5 shadow">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-4 ">
+                                <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682787693/gallery-9_sg2xfb.png" width="80%">
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <h1 class="card-heading p-3">Mexicana taco</h1>
+                                <p class="card-para">Lime is probably the most essential of authentic Mexican taco toppings. A squeeze of lime adds a dash of acid that brings out the other flavors in a taco beautifully. Onions, cilantro, pico de gallo, sliced radishes or cucumbers, avocado, and chili peppers are also standard toppings for authentic tacos.</p>
+                                <a href="#" onclick="display('sectionmexicanataco')" class="card-sub-heading">Making Process<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="m-2 bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card1 mb-3 p-5 shadow">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-4 ">
+                                <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682800878/gallery-13_coudlc.png" width="80%">
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <h1 class="card-heading p-3">Paneer curry</h1>
+                                <p class="card-para">Paneer curry is a delicious vegetarian dish made with paneer, a type of Indian cheese, cooked in a flavorful sauce.</p>
+                                <a href="#" onclick="display('sectionpaneer')" class="card-sub-heading">Making Process<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="m-2 bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="recipes000">
+            <div class="recipes">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="recipes-heading mt-5 mb-3 ml-5">Dinning on the Lake</h1>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <div class="card shadow p-5 m-2">
+                                <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682787695/gallery-2_ix9zpu.png" width="80%">
+                                <h1 class="recipes-sub-heading mt-2">Fish</h1>
+                                <p class="recipes-para">This spicy dish is a scintillating stew of curry cooked with vegetables and of course, the whole head of a fish. This delectable dish is usually cooked with both tamarind and coconut milk, giving it a rich, nuanced flavour.</p>
+                                <a href="#" onclick="display('sectionfishcurry')" class="card-sub-heading">Making Process<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="m-2 bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <div class="card shadow p-5 m-2">
+                                <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682830211/Dininingonlake-2_qdxc8j.jpg" width="80%">
+                                <h1 class="recipes-sub-heading mt-2">Crab</h1>
+                                <p class="recipes-para">A crab is a sea creature with a flat round body covered by a shell, and five pairs of legs with large claws on the front pair. Crabs usually move sideways. Crab is the flesh of this creature eaten as food. A crab is a sea creature with a flat round body.</p>
+                                <a href="#" onclick="display('sectionfishcurry')" class="card-sub-heading">Making Process<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="m-2 bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-md-4">
+                            <div class="card shadow p-5 m-2">
+                                <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682830210/Dininingonlake-1_vrxizj.jpg" width="80%">
+                                <h1 class="recipes-sub-heading mt-2">Prawns</h1>
+                                <p class="recipes-para">Prawns are a useful source of the B group of vitamins, including B12 and folate. These vitamins play an important role in energy production and replenishing red blood cells. Prawns provide about 22 times the vitamin E levels of either chicken or beef.</p>
+                                <a href="#" class="card-sub-heading">Making Process<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="m-2 bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <h1 class="recipes-heading mt-5 mb-3 ml-5">Non-Veg</h1>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card shadow p-5 m-2">
+                                <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682832866/esxxw2efgbyyeux4ghei_cne3kv.jpg" width="80%">
+                                <h1 class="recipes-sub-heading mt-2">Mandi</h1>
+                                <p class="recipes-para">The word "mandi" comes from the Arabic word "nada", meaning "dew", and reflects the moist 'dewy' texture of the meat. A rice dish made with meat, mandi differs from biriyani in the way it's cooked and served </p>
+                                <a href="#" class="card-sub-heading">Making Process<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="m-2 bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card shadow p-5 m-2">
+                                <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682834265/Non-Veg-3_yb6zsm.jpg" width="80%">
+                                <h1 class="recipes-sub-heading mt-2">Mutton curry</h1>
+                                <p class="recipes-para">This spicy gravy is prepared with mutton, curd, coriander powder, red chilli powder, garam masala, turmeric, tomatoes, onions, chillies, and the achari meat powder. It is best served with naan, missi roti or steamed rice.</p>
+                                <a href="#" class="card-sub-heading">Making Process<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="m-2 bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card shadow p-5 m-2">
+                                <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682833916/Non-Veg-2_at5ua7.jpg" width="80%">
+                                <h1 class="recipes-sub-heading mt-2">Chicken 65</h1>
+                                <p class="recipes-para">Chicken 65 is a South Indian deep fried chicken appetizer, originated in Hotel Buhari in Chennai. Chicken pieces are marinated with flour, spices, yogurt, egg, and curry leaves. These are later fried to perfection until golden and crisp.</p>
+                                <a href="#" class="card-sub-heading">Making Process<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="m-2 bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <h1 class="recipes-heading mt-5 mb-3 ml-5">Vegetarian</h1>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card shadow p-5 m-2">
+                                <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682839820/veg-1_uns6ov.jpg" width="80%">
+                                <h1 class="recipes-sub-heading mt-2">Kichidi</h1>
+                                <p class="recipes-para">Contains all the essential nutrients to enhance one's health: The combination of rice, lentils, and ghee provides you with carbohydrates, proteins, dietary fiber, vitamin C, calcium, magnesium, phosphorus, and potassium can help to build immunity, and help you to avoid getting sick.</p>
+                                <a href="#" class="card-sub-heading">Making Process<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="m-2 bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card shadow p-5 m-2">
+                                <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682840125/veg-2_iymgqe.jpg" width="80%">
+                                <h1 class="recipes-sub-heading mt-2">Puran poli</h1>
+                                <p class="recipes-para">Puran Poli Sweet (Pooran Poli) is a traditional Indian sweet dish (Maharashtrian) made using whole wheat flour dough stuffed with a sweet lentil filling. Serve it with a dollop of ghee and milk on the side for a delicious breakfast, snack, or dessert (vegetarian)</p>
+                                <a href="#" class="card-sub-heading">Making Process<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="m-2 bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card shadow p-5 m-2">
+                                <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682833916/Non-Veg-2_at5ua7.jpg" width="80%">
+                                <h1 class="recipes-sub-heading mt-2">Soya chaap</h1>
+                                <p class="recipes-para">"Soya chaap includes 60 per cent soya flour, 40 per cent maida, salt, and water," according to dietitian Simrat Kathuria. Soya, along with paneer, is considered to be a great source of protein for those on a vegetarian diet. And if you like your food spicy, there is nothing better than soya chaap.</p>
+                                <a href="#" class="card-sub-heading">Making Process<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="m-2 bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Galllery -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="gallery-heading m-5 p-5">Gallery section</h1>
+                </div>
+                <div class="col-6">
+                    <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682825189/zahrin-lukman-VSNoQdimlQQ-unsplash_mfxhh5.jpg" width="100%" class="pt-2 pb-2 pl-2">
+                    <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682825187/sean-stone-0hOHNA3M6Ds-unsplash_kwu51n.jpg" width="100%" class="pt-2 pb-2 pl-2">
+                </div>
+                <div class="col-6">
+                    <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682825190/ella-olsson-KPDbRyFOTnE-unsplash_jgdew6.jpg" width="100%" class="pt-2 pb-2 pl-2">
+                    <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682825190/brooke-lark-M4E7X3z80PQ-unsplash_z6gaic.jpg" width="100%" class="pt-2 pb-2 pl-2">
+                </div>
+            </div>
+        </div>
+
+        <!-- reviews -->
+        <h1 class="carousel-main-heading m-5">Customers Reviews</h1>
+        <div class="carousel-card-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carousel-card-items text-center">
+                                        <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682818989/reviews-2_u5gf9c.png" class="carousel-img-card" alt="...">
+                                        <p class="carousel-card-heading mt-3">Julie</p>
+                                        <p class="carousel-card-para">"I recently tried the recipe for the Blueberry Crumble Bars on this food blog, and I have to say, I was blown away! The combination of the sweet blueberries and the buttery crumble was simply divine. The recipe was easy to follow and the end result was delicious. I will definitely be making these bars again and can't wait to try more recipes from this blog. Highly recommend for anyone looking for tasty treats to satisfy their sweet tooth!"</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-card-items text-center">
+                                        <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682818989/reviews-3_esbknt.png" class="carousel-img-card" alt="...">
+                                        <p class="carousel-card-heading mt-3">Mark</p>
+                                        <p class="carousel-card-para">"I absolutely loved the food at this restaurant! The flavors were so rich and bold, and everything was cooked to perfection. The presentation was also beautiful - almost too pretty to eat! The service was outstanding as well, with the staff being attentive and knowledgeable about the menu. I can't wait to come back and try more dishes!</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-card-items text-center">
+                                        <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682818988/reviews-4_hrm1ma.png" class="carousel-img-card" alt="...">
+                                        <p class="carousel-card-heading mt-3">Jathin</p>
+                                        <p class="carousel-card-para">"I stumbled upon this blog while searching for new recipes to try, and I have to say, I was not disappointed! The pictures alone were enough to make my mouth water, and the recipes were easy to follow and turned out delicious. I'm looking forward to trying out more recipes from this blog in the future, and Everything was cooked to perfect"</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-card-items text-center">
+                                        <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682818989/reviews-6_iaq3on.png" class="carousel-img-card" alt="...">
+                                        <p class="carousel-card-heading mt-3">Sophia</p>
+                                        <p class="carousel-card-para">"I absolutely loved the food at this restaurant! The flavors were so rich and bold, and everything was cooked to perfection. The presentation was also beautiful - almost too pretty to eat! The service was outstanding as well, with the staff being attentive and knowledgeable about the menu. I can't wait to come back and try more dishes!"</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-card-items text-center">
+                                        <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682818989/reviews-5_kjwbuw.png" class="carousel-img-card" alt="...">
+                                        <p class="carousel-card-heading mt-3">David</p>
+                                        <p class="carousel-card-para">"As a guy who loves good food, I have to say this blog never disappoints! The reviews are always on point, and I appreciate the honest and detailed descriptions of each dish. It's not often you find a food blog that caters to both men and women, but this one hits the mark. Keep up the great work!"</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-card-items text-center">
+                                        <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682818989/reviews-1_nryjoy.png" class="carousel-img-card" alt="...">
+                                        <p class="carousel-card-heading mt-3">Emma</p>
+                                        <p class="carousel-card-para">I recently visited this restaurant and was blown away by the quality of the food. I ordered the seafood linguine and it was perfectly cooked with an abundance of fresh seafood. The pasta was al dente and the sauce was just the right amount of creamy. To top it off, the service was excellent and the ambiance was lovely. I highly recommend this restaurant to anyone looking for a top-notch dining experience!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- FAQ's -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <h1 class="FAQ">Frequently Asked Questions</h1>
+                </div>
+                <div class="col-12">
+                    <div class="container-fluid d-flex flex-row justify-content-center mt-5 mb-5">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mb-3 ">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" fdprocessedid="iy4wt">
+                                        I tried one of your recipes and it didn't work.what did i do wrong?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                                    <div class="accordion-body">
+                                        <strong> First of all, thank you for trying one of my recipes.</strong> And please know that my intent is always to create a recipe that works for everyone. In saying that, baking is a science and so many things can effect the outcome of a recipe, such as your oven, your ingredients, your equipment and even the climate and temperature of your location.<br><br> If this does happe, plesase email me at <strong>info@wings.com</strong> and we can troubleshoot together.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" fdprocessedid="3o99kb">
+                                        I tried one of your recipes and loved it! can i show you ?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                                    <div class="accordion-body">
+                                        <strong>Please do!</strong>I absolutely LOVE seeing your baking creation! The easiest way to show me is on <span class="underline-text">Instagram</span> using the hashtag <span class="underline-text">#wings</span>. And don't forget to rate the recipe too. Not only does it brighten my day, but it helps other readers who are thinking about making the recipe.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" fdprocessedid="6ttv89">
+                                        How did you learn food photography ?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                                    <div class="accordion-body">
+                                        <strong>Food photography is really hard.</strong>When I started this blog in 2021, I had never even held a DSLR camera and I certainly didn’t own one. I started out by taking photos using my iphone. But over time, I began to enjoy learning about food photography, the art of styling food for the camera and the importance of lighting. I have a subscription to<br> Adobe Creative Cloud<br> Adobe Lightroom <br> Adobe Photoshop<br> to edit my photos and I shoot only in natural light. I will be honest though, I recently upgraded my camera and lens and I can 100% see the difference.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Fotter -->
+        <div class="fotter pt-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="p-4 col-12 col-md-3">
+                        <h1 class="footer-main-text">MeetNEat</h1>
+                        <p class="footer-para">sdfghjklkhgfdsdfghjklgcfdvabnksiuyg</p>
+                        <a href="#"><i class="icons fa-brands fa-youtube mr-2"></i></a>
+                        <a href="#"><i class="icons fa-brands fa-instagram mr-2"></i></a>
+                        <a href="#"><i class="icons fa-brands fa-facebook mr-2"></i></a>
+                        <a href="#"><i class="icons fa-brands fa-twitter mr-2"></i></a>
+                        <a href="#"><i class="icons fa-brands fa-whatsapp mr-2"></i></a>
+                        <a href="#"><i class="icons fa-brands fa-telegram mr-2"></i></a>
+                    </div>
+
+                    <div class="p-4 col-4 col-md-3">
+                        <h2 class="quicklinks">Quick links</h2>
+                        <div class="d-flex flex-column mt-3">
+                            <a href="#" class="quicklinks-link">Home</a>
+                            <a href="#" class="quicklinks-link">Aboutus</a>
+                            <a href="#" class="quicklinks-link">Recipes</a>
+                            <a href="#" class="quicklinks-link">Feedback</a>
+                        </div>
+                    </div>
+
+                    <div class="p-4 col-4 col-md-3">
+                        <h2 class="contactus">Contact us</h2>
+                        <div class="d-flex flex-column mt-3">
+                            <p class="footer-contact-para">Address: 17th Floor tower A Brigade Signature Towers, Bengaluru, Karnataka</p>
+                            <p class="footer-contact-para">+91 9391050636</p>
+                            <p class="footer-contact-para">info@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="p-4 col-4 col-md-3">
+                        <h2 class="recentpost">Recent posts</h2>
+                        <div class="d-flex flex-column">
+                            <p class="recentpost-para">Fish: Making process of fish is recently added to SeaFoods</p>
+                            <p class="recentpost-date">29-April-2023</p>
+                        </div>
+                    </div>
+
+                    <div class="copyrightssection col-12 pt-2">
+                        <p class="copyrights">copyright ©2023 All rights are reserved | Out of Bounds |</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="sectionfishcurry">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ml-5 mr-5">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682773527/Nav-logo_ud3gcs.png" class="navbar-image " />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav m-auto">
+                        <a class="nav-link mr-2" onclick="display('sectionhome')" id="nav-Items-4" href="#">Home</a>
+                        <a class="nav-link mr-2" id="nav-Items-1" href="#">About Us</a>
+                        <a class="nav-link mr-2" id="nav-Items-2" href="#">Recipes</a>
+                        <a class="nav-link mr-2" onclick="display('sectionfeedback')" id="nav-Items-3" href="#">Feedback</a>
+                    </div>
+                    <div class="ml-auto">
+                        <a class="nav-link" id="nav-Items-0" href="#">Feedback</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="intgredients-bg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="intgredients-heading d-flex flex-column justify-content-center mb-5">Fish curry Making process</h1>
+                    </div>
+                    <p class="intgredients-para p-5 text-center">The exact process of making fish curry can vary depending on the recipe and the region, but here is a general overview of the steps involved</p>
+                    <div class="col-12">
+                        <h2 class="sub-ingredients-heading p-5">Ingredients:</h2>
+                        <ul class="unorderlist pl-5 mb-5">
+                            <li>500g fish (any firm white fish like cod, haddock, tilapia, or salmon)</li>
+                            <li>1 onion, chopped</li>
+                            <li>2 garlic cloves, minced</li>
+                            <li>1-inch piece of ginger, grated or chopped</li>
+                            <li>2 tomatoes, chopped</li>
+                            <li>1 tbsp. vegetable oil</li>
+                            <li>1 tsp. cumin seeds</li>
+                            <li>1 tsp. coriander powder</li>
+                            <li>1 tsp. turmeric powder</li>
+                            <li>1 tsp. chili powder</li>
+                            <li>1 cup water</li>
+                            <li>Salt, to taste</li>
+                            <li>Cilantro leaves, chopped, for garnish</li>
+                        </ul>
+                    </div>
+                    <h2 class="sub-ingredients-process m-5">How to cook Fish curry</h2>
+                    <p class="sub-ingredients-process-para ml-5">
+                        Clean and cut the fish into bite-sized pieces. Sprinkle with a little salt and set aside.<br>
+
+                        Heat the oil in a large pan over medium-high heat. Add the cumin seeds and let them sizzle for a few seconds.<br>
+
+                        Add the chopped onion and cook until it becomes translucent and lightly browned.<br>
+
+                        Add the minced garlic and grated ginger and cook for another minute until fragrant.<br>
+
+                        Add the chopped tomatoes and cook for a few minutes until they become soft and mushy.<br>
+
+                        Add the coriander powder, turmeric powder, and chili powder and stir to combine.<br>
+
+                        Add the water and stir to make a smooth sauce. Bring to a boil, then reduce the heat and let it simmer for 5-10 minutes.<br>
+
+                        Add the fish to the pan and gently stir to coat it with the sauce. Cover the pan and let it simmer for 5-10 minutes until the fish is cooked through.<br>
+
+                        Adjust the seasoning with salt to taste.<br>
+
+                        Garnish with chopped cilantro leaves and serve hot with rice or bread. Enjoy your delicious fish curry!<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="sectionmexicanataco">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ml-5 mr-5">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682773527/Nav-logo_ud3gcs.png" class="navbar-image " />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav m-auto">
+                        <a class="nav-link mr-2" onclick="display('sectionhome')" id="nav-Items-4" href="#">Home</a>
+                        <a class="nav-link mr-2" id="nav-Items-1" href="#">About Us</a>
+                        <a class="nav-link mr-2" id="nav-Items-2" href="#">Recipes</a>
+                        <a class="nav-link mr-2" onclick="display('sectionfeedback')" id="nav-Items-3" href="#">Feedback</a>
+                    </div>
+                    <div class="ml-auto">
+                        <a class="nav-link" id="nav-Items-0" href="#">Feedback</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="intgredients-bg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="intgredients-heading  d-flex flex-column justify-content-center">Mexicana taco Making process</h1>
+                        <p class="intgredients-para p-5 text-center">Lime is probably the most essential of authentic Mexican taco toppings. A squeeze of lime adds a dash of acid that brings out the other flavors in a taco beautifully. Onions, cilantro, pico de gallo, sliced radishes or cucumbers, avocado, and chili peppers are also standard toppings for authentic tacos.</p>
+                        <h2 class="sub-ingredients-heading ml-5">Ingredients:</h2>
+                        <ul class="unorderlist ml-5">
+                            <li>Corn tortillas</li>
+                            <li>Protein: beef, chicken, pork, fish or beans</li>
+                            <li>Seasonings for the protein: cumin, chili powder, garlic powder, onion powder, salt, and pepper</li>
+                            <li>Toppings: diced tomatoes, diced onions, cilantro, shredded lettuce, guacamole, and cheese</li>
+                            <li>Salsa: red or green salsa, or pico de gallo</li>
+                            <li>Lime wedges (to squeeze over the taco)</li>
+                        </ul>
+                        <h2 class="sub-ingredients-process p-5">How to cook Mexicana taco</h2>
+                        <p class="sub-ingredients-process-para pl-5 mb-5">
+                            Preheat a skillet or grill pan over medium-high heat.<br>
+
+                            Season the protein with cumin, chili powder, garlic powder, onion powder, salt, and pepper.<br>
+
+                            Cook the protein in the skillet or grill pan until browned and cooked through.<br>
+
+                            Warm the tortillas in a separate skillet or in the oven.<br>
+
+                            Assemble the tacos by placing the cooked protein on the warm tortillas.<br>
+
+                            Add toppings such as diced tomatoes, diced onions, cilantro, shredded lettuce, guacamole, and cheese.<br>
+
+                            Drizzle with salsa and a squeeze of lime.<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionpaneer">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ml-5 mr-5">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682773527/Nav-logo_ud3gcs.png" class="navbar-image " />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav m-auto">
+                        <a class="nav-link mr-2" onclick="display('sectionhome')" id="nav-Items-4" href="#">Home</a>
+                        <a class="nav-link mr-2" id="nav-Items-1" href="#">About Us</a>
+                        <a class="nav-link mr-2" id="nav-Items-2" href="#">Recipes</a>
+                        <a class="nav-link mr-2" id="nav-Items-3" href="#">Feedback</a>
+                    </div>
+                    <div class="ml-auto">
+                        <a class="nav-link" onclick="display('sectionfeedback')" id="nav-Items-0" href="#">Feedback</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="intgredients-bg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="intgredients-heading  d-flex flex-column justify-content-center">Paneer curry Making process</h1>
+                        <p class="intgredients-para m-5">Paneer curry is a delicious vegetarian dish from Indian cuisine. Here are the ingredients you will need.</p>
+                        <h2 class="sub-ingredients-heading ml-5">Ingredients:</h2>
+                        <ul class="unorderlist ml-5">
+                            <li>Paneer - 200-250g</li>
+                            <li>Onion - 1 medium, chopped</li>
+                            <li>Tomatoes - 2 medium, chopped</li>
+                            <li>Ginger - 1 inch piece, grated</li>
+                            <li>Garlic - 3-4 cloves, minced</li>
+                            <li>Green chili - 1-2, chopped</li>
+                            <li>Turmeric powder - 1/2 tsp</li>
+                            <li>Red chili powder - 1/2 tsp</li>
+                            <li>Coriander powder - 1 tsp</li>
+                            <li>Garam masala - 1/2 tsp</li>
+                            <li>Cumin seeds - 1/2 tsp</li>
+                            <li>Salt - to taste</li>
+                            <li>Oil - 2-3 tbsp</li>
+                            <li>Water - 1/2 to 1 cup</li>
+                            <li>Fresh coriander leaves - for garnishing</li>
+                        </ul>
+                        <h2 class="sub-ingredients-process mt-3 pl-5">How to cook Panner curry</h2>
+                        <p class="sub-ingredients-process-para pl-5 mb-5">
+                            Cut the paneer into cubes and set aside.<br>
+
+                            Heat oil in a pan over medium heat. Add cumin seeds and let them splutter.<br>
+
+                            Add chopped onions and sauté until they turn golden brown.<br>
+
+                            Add grated ginger, minced garlic, and chopped green chili. Sauté for a minute.<br>
+
+                            Add chopped tomatoes and cook until they turn soft and mushy.<br>
+
+                            Add turmeric powder, red chili powder, coriander powder, garam masala, and salt. Mix well and cook for a couple of minutes.<br>
+
+                            Add the paneer cubes and stir gently. Add water as required to adjust the consistency of the curry.<br>
+
+                            Cover the pan and simmer the curry for 5-7 minutes or until the paneer is cooked and the curry has thickened to your desired consistency.<br>
+
+                            Turn off the heat and garnish with fresh coriander leaves.<br>
+
+                            Serve hot with rice or Indian bread such as naan or roti.<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="sectionfeedback">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ml-5 mr-5">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://res.cloudinary.com/djdbkqdrc/image/upload/v1682773527/Nav-logo_ud3gcs.png" class="navbar-image " />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav m-auto">
+                        <a class="nav-link mr-2" onclick="display('sectionhome')" id="nav-Items-4" href="#">Home</a>
+                        <a class="nav-link mr-2" id="nav-Items-1" href="#">About Us</a>
+                        <a class="nav-link mr-2" id="nav-Items-2" href="#">Recipes</a>
+                        <a class="nav-link mr-2" id="nav-Items-3" href="#">Feedback</a>
+                    </div>
+                    <div class="ml-auto">
+                        <a class="nav-link" onclick="display('sectionfeedback')" id="nav-Items-0" href="#">Feedback</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="contact-us pt-5 pb-5">
+            <div class="blur container-fluid">
+                <div class="row">
+                    <div class="card1 shadow mr-5 ml-5 mt-3 mb-3 d-flex flex-column justify-content-centre text-centre">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="card1-bg d-flex flex-column justify-content-end col-12 col-md-5">
+                                    <h2 class="card1-bg-main-heading ml-5 mb-3">MeetNEat</h2>
+                                    <p class="card1-bg-para ml-5 mb-3 mr-3">Food includes both plant and animal-based products that can be consumed in a variety of forms, including raw, cooked, and processed.</p>
+                                    <div class="ml-5 mb-5 d-flex flex-row">
+                                        <a href="#"><i class=" Feedback-icons fa-brands fa-youtube mr-2"></i></a>
+                                        <a href="#"><i class=" Feedback-icons fa-brands fa-instagram mr-2"></i></a>
+                                        <a href="#"><i class=" Feedback-icons fa-brands fa-facebook mr-2"></i></a>
+                                        <a href="#"><i class=" Feedback-icons fa-brands fa-twitter mr-2"></i></a>
+                                        <a href="#"><i class=" Feedback-icons fa-brands fa-whatsapp mr-2"></i></a>
+                                        <a href="#"><i class=" Feedback-icons fa-brands fa-telegram mr-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-7 ">
+                                    <h1 class="contact-us-card1-heading mt-5 ml-5">GET IN TOUCH</h1>
+                                    <p class="card1-sub-para ml-5 mr-5">In case of any queries, feel free to reach to us and we'll respond at the earliest.</p>
+                                    <form name="submit-to-google-sheet" class="m-5 pt-5">
+                                        <div class="mb-4">
+                                            <input type="text" name="Name" placeholder="Name" id="name" class="card1-form pt-3 pb-3 pr-5 pl-3" required oninvalid="this.setCustomValidity('Please enter your name')" oninput="this.setCustomValidity('')">
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="email" name="E-mail" id="email" placeholder="E-mail" class="card1-form pt-3 pb-3 pr-5 pl-3" required oninvalid="this.setCustomValidity('Enter a valid email')" oninput="this.setCustomValidity('')">
+                                        </div>
+                                        <div class="mb-4">
+                                            <textarea placeholder="Message" name="Message" id="message" class="card1-form pt-3 pb-3 pr-5 pl-3" cols="30" rows="4" required oninvalid="this.setCustomValidity('Please enter your  message')" oninput="this.setCustomValidity('')"></textarea>
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="file" accept="image/*" id="image" name="image" class="card1-form pt-3 pb-3 pr-5 pl-3" cols="30" rows="4" required>
+                                        </div>
+                                        <img id="preview" src="" alt="">
+                                        <button class="card1-form-ctsu-btn" type="submit" name="myButton">Submit</button>
+                                        <span id="msg"></span>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxlrZTlfiQodQ_gt71IzhPwmqoepsdqJWUxFmdqA9kb2MwQQlGbQXCugv3daB8-IeoY5Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            alert('Your message has been sent successfully!');
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Thank you for your message!";
+
+                    setTimeout(function() {
+                        msg.innerHtml = ""
+                        img.src = "";
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+        let file = document.getElementById("image");
+        let img = document.querySelector("img");
+        file.addEventListener('change', () => {
+            let fr = new FileReader();
+            fr.addEventListener('loadend', () => {
+                let res = fr.result;
+                img.src = res;
+                let spt = res.split("base64,")[1];
+                let obj = {
+                    base64: spt,
+                    type: file.files[0].type,
+                    name: file.files[0].name
+                }
+                fetch(url, {
+                        method: "POST",
+                        body: JSON.stringify(obj)
+                    })
+                    .then(r => r.text())
+                    .then(data => console.log(data))
+
+            })
+            fr.readAsDataURL(file.files[0])
+        })
+    </script>
+
+
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

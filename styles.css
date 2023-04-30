@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+.nav-bar-items {
+    background-color: transparent;
+}
+
+.navbar-image {
+    width: 40%;
+}
+
+#nav-Items-1 {
+    color: #000000;
+    font-family: Montserrat;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px;
+}
+
+#nav-Items-1:hover {
+    color: white;
+    background: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+#nav-Items-2 {
+    color: #000000;
+    font-family: Montserrat;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px;
+}
+
+#nav-Items-2:hover {
+    color: white;
+    background: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+#nav-Items-3 {
+    color: #000000;
+    font-family: Montserrat;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px;
+}
+
+#nav-Items-3:hover {
+    color: white;
+    background: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+#nav-Items-4 {
+    color: #000000;
+    font-family: Montserrat;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px;
+}
+
+#nav-Items-4:hover {
+    color: white;
+    background: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+#nav-Items-0 {
+    color: #000000;
+    font-family: Montserrat;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px;
+}
+
+#nav-Items-0:hover {
+    color: #000000;
+    background: transparent;
+    border-color: #000000;
+    border-style: solid;
+}
+
+.banner {
+    background-image: url('https://res.cloudinary.com/djdbkqdrc/image/upload/v1682784693/bg-img_wkospk.png');
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+
+.banner-subtext {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.banner-heading {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.banner-para {
+    color: #fff;
+}
+
+
+.banner-ctu-btn {
+    width: 140px;
+    height: 50px;
+    background-color: #000;
+    color: #ffffff;
+    border-width: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 0px;
+}
+
+.banner-ctu-btn:hover {
+    color: #fff;
+    font-weight: 500;
+    background-color: transparent;
+    border: solid #000;
+}
+
+.banner-sub-img {
+    align-items: center;
+}
+
+
+.about-us-heading {
+    color: #000;
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.about-us-para {
+    color: #000;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+
+    font-weight: 300;
+
+}
+
+
+.pro-heading {
+    color: #000;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+
+.card {
+    text-align: left;
+    border-width: 0px;
+    height: 700px;
+}
+
+
+.card1 {
+    text-align: left;
+    border-width: 0px;
+}
+
+.card:hover {
+    background-color: #F7C7DB;
+}
+
+
+
+.card1:hover {
+    color: #fff;
+    background-color: #F7C7DB;
+}
+
+.card-heading {
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.card-sub-heading {
+    text-decoration: none;
+    color: #22333b;
+}
+
+
+.recipes-heading {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.recipes-sub-heading {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.carousel-main-heading {
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 36px;
+}
+
+.carousel-card-bg {
+    background-color: #F7C7DB;
+    padding: 30px;
+
+}
+
+.carousel-card-heading {
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.carousel-card-para {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.carousel-img-card {
+    width: 20%;
+}
+
+
+
+
+
+.gallery-heading {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 36px;
+}
+
+
+
+.FAQ {
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 36px;
+}
+
+.underline-text {
+    text-decoration: underline;
+    background-color: yellow;
+    color: #000;
+}
+
+
+.accordion {
+    width: 60%;
+    background: transparent;
+}
+
+.accordion-item {
+    background-color: #edf6f9;
+    color: #000;
+    border: none;
+}
+
+.accordion-button {
+    color: #000;
+    background-color: #fff;
+    font-weight: 600;
+    outline: none;
+}
+
+.accordion-button:focus {
+    background-color: #03071e;
+    color: #fff;
+    border-width: 1px;
+    border-color: #000;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fotter {
+    background-color: #000;
+    background-size: cover;
+    height: 100%;
+}
+
+.footer-main-text {
+    color: #fff;
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.footer-para {
+    color: #fff;
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.icons {
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+}
+
+.icons:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.quicklinks {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.quicklinks-link {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.quicklinks-link:hover {
+    text-decoration: none;
+}
+
+.contactus {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.footer-contact-para {
+    color: #fff;
+    font-size: 14px;
+}
+
+.recentpost {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.recentpost-para {
+    color: #fff;
+    font-size: 14px;
+}
+
+.recentpost-date {
+    color: #fff;
+    font-size: 14px;
+}
+
+.copyrightssection {
+    background-color: #F7C7DB;
+    color: #000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+
+.contact-us {
+    background-image: url('https://res.cloudinary.com/djdbkqdrc/image/upload/v1682801957/ella-olsson-oPBjWBCcAEo-unsplash_y0qwtr.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+.card1 {
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card1-bg {
+    background-image: url('https://res.cloudinary.com/djdbkqdrc/image/upload/v1682162436/contact-us-card-sideimg_q9smbf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+
+.card1-bg-main-heading {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card1-bg-para {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #545454;
+    letter-spacing: 1px;
+}
+
+
+.card1-form {
+    width: 100%;
+    border: 1px solid #7d7d7d;
+    border-radius: 0px;
+}
+
+::placeholder {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.contact-us-card1-heading {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card1-sub-para {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.card1-form-ctsu-btn {
+    width: 158px;
+    height: 60px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 300;
+    letter-spacing: 2px;
+    border-width: 0px;
+}
+
+.Feedback-icons {
+    font-size: 20px;
+    color: #000;
+    padding: 5px;
+}
+
+.Feedback-icons:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.intgredients-bg {
+    background-color: #f9f7f3;
+    background-size: cover;
+    width: 100%;
+}
+
+.intgredients-heading {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 42px;
+    background-image: url('https://res.cloudinary.com/djdbkqdrc/image/upload/v1682821608/sub-banner_xtfv0l.png');
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    height: 400px;
+}
+
+.intgredients-para {
+    color: #000;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.sub-ingredients-heading {
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 42px;
+    text-transform: uppercase;
+
+}
+
+.unorderlist {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.sub-ingredients-process {
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.sub-ingredients-process-para {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+
+}
+
+.sectionfishcurry {
+    background-image: url('https://res.cloudinary.com/djdbkqdrc/image/upload/v1682821608/sub-banner_xtfv0l.png');
+    background-size: cover;
+    width: 100%;
+}
